@@ -1,0 +1,48 @@
+.bannerContainer {
+  height: fit-content;
+  width: 100%;
+  min-width: 100%;
+
+  /* position: relative; */
+}
+
+.bannerTop {
+  margin-top: 10vh;
+  min-width: 100%;
+  /* position: absolute; */
+  height: 50vh;
+  background-image: url(/public/banner.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.bannerBottom {
+  margin-top: 20px;
+}
+
+.bannerBtnDiv {
+  width: 100%;
+  height: fit-content;
+  align-items: center;
+}
+
+.bannerBtn {
+  background-color: #387ed1;
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0) !important;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 30px;
+
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  font-weight: 500;
+}
+.bannerTXt{
+}
+.subTxt{
+  font-size: 22px;
+}

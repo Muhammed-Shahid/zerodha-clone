@@ -1,0 +1,33 @@
+.abtContainer{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    padding: 5px 20px;
+}
+
+
+.abtLeft{
+    width: 50%;
+
+}
+
+.abtRight{
+    width: 50%;
+    text-align: justify;
+    padding-right: 70px;
+
+}
+.abtRight .list{
+    display: flex;
+    font-size: 20px;
+}
+.abtRight p{
+    padding-right: 200px;
+}
+.abtRight ul{
+    float: left;
+    list-style-type: disc;;
+}
+.abtLeftImg{
+    width: 60%;
+}
