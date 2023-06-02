@@ -5,3 +5,22 @@
 .abtSec{
   margin-top: 5rem;
 }
+.pricing{
+  display :flex;
+margin-top: 200px;
+  width: 100%;
+padding: 10px 80px;
+
+}
+
+.pricingLft{
+  max-width: 50%;
+  float: left;
+  text-align: justify;
+
+}
+
+
+.pricingRight{
+  max-width: 50%;
+}
