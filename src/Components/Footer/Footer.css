@@ -1,0 +1,35 @@
+.container {
+    position: relative;
+    width: 1100px;
+    max-width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.between {
+    justify-content: space-between;
+}.row {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    flex-flow: row wrap;
+}.three {
+    flex-basis: 22%;
+    width: 22%;
+}.columns, .column {
+    box-sizing: border-box;
+    flex: 0 1 auto;
+    text-align: left;
+   
+}
+a{
+    text-decoration: none;
+    color: #6f6f6f;
+
+}
+a:hover{
+    color: #4776ad;
+
+}
+#footer{
+    padding-top: 100px;
+}

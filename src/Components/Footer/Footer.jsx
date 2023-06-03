@@ -1,6 +1,6 @@
 
 import React from 'react'
-
+import './Footer.css'
 function Footer() {
   return (
     <div>
@@ -9,7 +9,7 @@ function Footer() {
     <div className="row between main-footer">
       <div className="columns three">
         <div className="footer-logo">
-          <img src="/static/images/logo.svg" alt />
+          <img style={{maxWidth:'200px'}} src={process.env.PUBLIC_URL+'/logo.svg'} alt />
         </div>
       
         <p className="copyright text-grey">© 2010 - 2023, Zerodha Broking Ltd.</p>
@@ -84,37 +84,7 @@ function Footer() {
       </div>
     </div>
 
-    <div className="footer-graveyard-links text-center">
-      <ul>
-        <li>
-          <a href="https://nseindia.com">NSE</a>
-        </li>
-        <li>
-          <a href="https://www.bseindia.com/">BSE</a>
-        </li>
-        <li>
-          <a href="https://www.mcxindia.com/">MCX</a>
-        </li>
-        <li>
-          <a href="https://zerodha.com/terms-and-conditions/">Terms &amp; conditions</a>
-        </li>
-        <li>
-          <a href="https://zerodha.com/policies-and-procedures/">Policies &amp; procedures</a>
-        </li>
-        <li>
-          <a href="https://zerodha.com/privacy-policy/">Privacy policy</a>
-        </li>
-        <li>
-          <a href="https://zerodha.com/disclosure/">Disclosure</a>
-        </li>
-        <li>
-          <a href="https://zerodha.com/investor-attention/">For investor's attention</a>
-        </li>
-        <li>
-          <a href="https://zerodha.com/tos/investor-charter/">Investor charter</a>
-        </li>
-      </ul>
-    </div>
+  
   </div>
 </footer>
 
